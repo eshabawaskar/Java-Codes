@@ -3,7 +3,7 @@ public class Factorial{
         int i,fact=1;
         float n = 4;
 
-        for(i=1;i<=n;i++){
+        for(i=1;i<=n;i++){ //for loop
             fact=fact*i;
         }
         System.out.println("Factorial of "+n+" is: "+fact);
